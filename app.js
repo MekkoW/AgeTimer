@@ -57,7 +57,7 @@ $(document).ready(function(){
 
             $("#age-label").html("CURRENT AGE " + p);
            if (age.year < 81) {
-                $("#time-left").html(  " JUST DO IT ");
+                $("#time-left").html(  " YOU CAN, JUST DO IT! :D ");
             }
             else {
                 $("time-left").css("display","none");
