@@ -1,10 +1,6 @@
 *,
 *:before,
 *:after {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -ms-box-sizing: border-box;
-    -o-box-sizing: border-box;
     box-sizing: border-box;
 }
 
@@ -13,7 +9,8 @@ html {
     margin: 0;
     padding: 0;
     height: 100%;
-    background-color: #FEFCF3;
+    background-color: #0f0f0f; /* Dark background color */
+    color: #b7b7b7; /* Light text color */
 }
 
 body {
@@ -30,15 +27,15 @@ input {
     font-family: 'Avenir', 'helvetica neue', helvetica, arial, sans-serif;
 }
 
-.age-label , .left{
-    color: #cab59f;
+.age-label, .left {
+    color: #2db786; /* Primary text color */
     font-size: 1.2rem;
     line-height: 1;
     margin: 0 0 0 10px;
 }
 
-.count{
-    color: #DBA39A;
+.count {
+    color: #b7b7b7; /* Secondary text color */
     margin: 0;
     font-size: 10rem;
     line-height: 1;
@@ -64,25 +61,25 @@ button {
     appearance: none;
 }
 
-
 input {
     margin-right: 0.5rem;
     box-sizing: border-box;
     border-width: 1px;
     border-style: solid;
     border-radius: 0.25rem;
-    border-color: #cab59f;
-    background-color: #FFF;
+    border-color: #2db786; /* Primary border color */
+    background-color: #0f0f0f; /* Dark background color */
+    color: #b7b7b7; /* Light text color */
 }
 
 button {
     outline: none;
     display: block;
     cursor: pointer;
-    color: #FFF;
+    color: #0f0f0f; /* Dark text color */
     border: none;
     border-radius: 0.25rem;
-    background-color: #cab59f;
+    background-color: #2db786; /* Primary background color */
 }
 
 footer {
@@ -101,10 +98,10 @@ footer {
     outline: none;
     display: block;
     cursor: pointer;
-    color: #FFF;
+    color: #0f0f0f; /* Dark text color */
     border: none;
     border-radius: 0.25rem;
-    background-color: #cab59f;
+    background-color: #2db786; /* Primary background color */
     padding: 0.375rem 0.75rem;
     font-size: 1.5rem;
 }
