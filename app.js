@@ -56,7 +56,7 @@ $(document).ready(function(){
             var p = ((((age.year)+(age.ms/Math.pow(10,9)))/77.28)*10).toFixed(2);
 
             $("#age-label").html("CURRENT AGE " + p);
-            if (age.year < 81) {
+            if (age.year > 81) {
                 $("#time-left").html((80-age.year) + "." + alt + " YEARS LEFT TO LIVE (" + p + "%)");
             }
             else {
